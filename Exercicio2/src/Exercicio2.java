@@ -71,6 +71,7 @@ public class Exercicio2 {
 				entrada = sc.next();
 				if (entrada.trim().equalsIgnoreCase("sair"))
 					ativo = false; // saindo do sistema
+					System.out.println(">> Aplicação encerrada <<");
 			}
 
 		} while (ativo);
